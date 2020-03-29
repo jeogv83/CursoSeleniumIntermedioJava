@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f091da27-6627-4806-9c59-7cb8b22f9c91" name="Default Changelist" comment="" />
+    <list default="true" id="f091da27-6627-4806-9c59-7cb8b22f9c91" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/testerfabrica/intermedio/testNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/testerfabrica/intermedio/ActionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/testerfabrica/intermedio/ActionExample.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +22,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Zo56Zi1gkmUYyF6UvrJcb0wEFx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,6 +34,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/testng-6.11" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -38,7 +48,7 @@
       <recent name="C:\Users\Jennifer Vunic\IdeaProjects\SeleniumIntermedio\lib\selenium-java-3.141.59" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.testNG">
     <configuration name="ActionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.testerfabrica.intermedio.ActionExample" />
       <module name="SeleniumIntermedio" />
@@ -52,8 +62,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testNG" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumIntermedio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.testerfabrica.intermedio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.testerfabrica.intermedio" />
+      <option name="MAIN_CLASS_NAME" value="org.testerfabrica.intermedio.testNG" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.testNG" />
         <item itemvalue="Application.ActionExample" />
       </list>
     </recent_temporary>
@@ -76,6 +104,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1585493965335" />
+    <state width="1367" height="185" key="GridCell.Tab.0.bottom" timestamp="1585502156531">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585502156531" />
+    <state width="1367" height="185" key="GridCell.Tab.0.center" timestamp="1585502156531">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="185" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585502156531" />
+    <state width="1367" height="185" key="GridCell.Tab.0.left" timestamp="1585502156531">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="185" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585502156531" />
+    <state width="1367" height="185" key="GridCell.Tab.0.right" timestamp="1585502156531">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="185" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585502156531" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1585493955564">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

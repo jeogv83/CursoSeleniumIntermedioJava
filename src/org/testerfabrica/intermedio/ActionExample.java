@@ -7,7 +7,7 @@ import org.openqa.selenium.interactions.Actions;
 
 public class ActionExample {
     static WebDriver driver;
-
+    //El siguiente metodo es para identifcar codigo java lejible para Selenium y ejecutar codigo
     public static void main (String[] args){
         String chromePath = System.getProperty("user.dir")+"\\drivers\\chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", chromePath);
