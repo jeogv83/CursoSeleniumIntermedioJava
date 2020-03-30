@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suit name = "Suite Groups">
+    //Creo mis grupos de prueba
+    <test name = "Test A">
+        <groups>
+            <run>
+                <include name = "A"/>
+            </run>
+        </groups>
+        //Clases que voy a ejecutar
+        <classes>
+            <class name = "org.testerfabrica.intermedio.parameterItestContext"/>
+        </classes>
+    </test>
+
+    <test name = "Test B">
+        <groups>
+            <run>
+                <include name = "B"/>
+            </run>
+        </groups>
+        //Clases que voy a ejecutar
+        <classes>
+            <class name = "org.testerfabrica.intermedio.parameterItestContext"/>
+        </classes>
+    </test>
+
+</suit>

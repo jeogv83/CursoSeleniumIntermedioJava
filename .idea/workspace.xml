@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f091da27-6627-4806-9c59-7cb8b22f9c91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/testerfabrica/intermedio/testNG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itestContex.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SeleniumIntermedio/org/testerfabrica/intermedio/testNGAnotaciones.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/testerfabrica/intermedio/dataProviderClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/testerfabrica/intermedio/dataProviderExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/testerfabrica/intermedio/parameterByMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/testerfabrica/intermedio/parameterItestContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/testerfabrica/intermedio/testNGAnotaciones.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/testerfabrica/intermedio/ActionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/testerfabrica/intermedio/ActionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SeleniumIntermedio/org/testerfabrica/intermedio/testNG.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SeleniumIntermedio/org/testerfabrica/intermedio/testNG.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,16 +44,19 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.testerfabrica.intermedio" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Jennifer Vunic\IdeaProjects\SeleniumIntermedio\lib\testng-6.11" />
       <recent name="C:\Users\Jennifer Vunic\IdeaProjects\SeleniumIntermedio\drivers" />
       <recent name="C:\Users\Jennifer Vunic\IdeaProjects\SeleniumIntermedio\lib\selenium-java-3.141.59" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.testNG">
+  <component name="RunManager" selected="TestNG.parameterByMethod">
     <configuration name="ActionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.testerfabrica.intermedio.ActionExample" />
       <module name="SeleniumIntermedio" />
@@ -58,6 +66,40 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dataProviderExample" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumIntermedio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.testerfabrica.intermedio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.testerfabrica.intermedio" />
+      <option name="MAIN_CLASS_NAME" value="org.testerfabrica.intermedio.dataProviderExample" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="parameterByMethod" type="TestNG" nameIsGenerated="true">
+      <module name="SeleniumIntermedio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.testerfabrica.intermedio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.testerfabrica.intermedio" />
+      <option name="MAIN_CLASS_NAME" value="org.testerfabrica.intermedio.parameterByMethod" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -79,8 +121,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testNGAnotaciones" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumIntermedio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.testerfabrica.intermedio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.testerfabrica.intermedio" />
+      <option name="MAIN_CLASS_NAME" value="org.testerfabrica.intermedio.testNGAnotaciones" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.dataProviderExample" />
+        <item itemvalue="TestNG.testNGAnotaciones" />
         <item itemvalue="TestNG.testNG" />
         <item itemvalue="Application.ActionExample" />
       </list>
@@ -104,26 +165,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1585493965335" />
-    <state width="1367" height="185" key="GridCell.Tab.0.bottom" timestamp="1585502156531">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585590073173">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585502156531" />
-    <state width="1367" height="185" key="GridCell.Tab.0.center" timestamp="1585502156531">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1585590073173" />
+    <state width="1367" height="185" key="GridCell.Tab.0.bottom" timestamp="1585588692735">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="185" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585502156531" />
-    <state width="1367" height="185" key="GridCell.Tab.0.left" timestamp="1585502156531">
+    <state width="1367" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585588692735" />
+    <state width="1367" height="185" key="GridCell.Tab.0.center" timestamp="1585588692735">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="185" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585502156531" />
-    <state width="1367" height="185" key="GridCell.Tab.0.right" timestamp="1585502156531">
+    <state width="1367" height="185" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585588692735" />
+    <state width="1367" height="185" key="GridCell.Tab.0.left" timestamp="1585588692735">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="185" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585502156531" />
-    <state x="184" y="6" key="SettingsEditor" timestamp="1585493955564">
+    <state width="1367" height="185" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585588692735" />
+    <state width="1367" height="185" key="GridCell.Tab.0.right" timestamp="1585588692735">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585493955564" />
+    <state width="1367" height="185" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585588692735" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1585590427823">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585590427823" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1585582630628">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585582630628" />
     <state x="65" y="0" key="new project wizard" timestamp="1585496391924">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
