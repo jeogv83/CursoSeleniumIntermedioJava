@@ -43,7 +43,7 @@ public class PdfEmail extends baseClass{
 
     @AfterSuite
     public void sendEmail (){
-        sendPdfReportByEmail("jeogv84@gmail.com", "O22341605", "jeogv84@gmail.com","Jennifer PDF Reort", "Please adjuntar el Reporte en PDF");
+        sendPdfReportByEmail("titaniumsoltest@gmail.com", "titanium619", "titaniumsoltest@gmail.com","Jennifer PDF Reort", "Please adjuntar el Reporte en PDF");
 
     }
 
